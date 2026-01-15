@@ -202,7 +202,7 @@ class CtItemAdmin(ImportExportMixin, admin.ModelAdmin):
                 payload = {
                     "text": instance.swahili,
                     "model_id": "eleven_multilingual_v2",
-                    "voice_settings": {"stability": 0.5, "similarity_boost": 0.75, "speed": 0.70, }
+                    "voice_settings": {"stability": 0.4, "similarity_boost": 0.75, "speed": 0.70, }
                 }
 
                 response = requests.post(url, json=payload, headers=headers, timeout=30)
