@@ -19,8 +19,9 @@ def convert_cny_to_tzs(amount_cny):
 
         # 檢查請求是否成功
         if data.get('result') == 'success':
+            # print(data['rates'])
             # 獲取 TZS 的匯率
-            rate = data['rates'].get('TZS')
+            rate = data['rates'].get('AOA')
 
             if rate:
                 # 進行轉換計算
