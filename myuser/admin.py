@@ -8,9 +8,9 @@ from django import forms
 from django.forms import TextInput, Textarea, EmailInput
 from django.db import models
 
-admin.site.site_header = '坦坦斯语-后台管理'
-admin.site.site_title = '坦坦斯语-后台管理'
-admin.site.index_title = u'坦坦斯语-后台管理'
+admin.site.site_header = '安哥葡语-后台管理'
+admin.site.site_title = '安哥葡语-后台管理'
+admin.site.index_title = u'安哥葡语-后台管理'
 
 
 @admin.register(HuiYuanType)

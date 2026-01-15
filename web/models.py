@@ -150,7 +150,7 @@ class CtItem(models.Model):
     xuhao = models.IntegerField(verbose_name='编号', default=0)
     chinese = models.CharField(verbose_name='汉语', max_length=64)
     english = models.CharField(verbose_name='英语', max_length=64)
-    swahili = models.CharField(verbose_name='斯语', max_length=64)
+    swahili = models.CharField(verbose_name='葡语', max_length=64)
     xieyin = models.CharField(verbose_name='汉语谐音', max_length=64)
     portrait = models.ImageField(verbose_name='图片', upload_to='ctportrait', null=True, blank=True,
                                  default='ctportrait/zhanwei.jpg',
