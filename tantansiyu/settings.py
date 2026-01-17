@@ -381,4 +381,4 @@ ELEVEN_LABS_API_KEY = "sk_8eba9500b80032b24197a7a0b925a9f2d30425969737c294"
 # 推荐模型：多语言 v2 (支持斯瓦希里语)
 ELEVEN_LABS_MODEL_ID = "eleven_multilingual_v2"
 # 推荐声音 ID (这里用的是 Rachel 的 ID，建议换成你喜欢的非洲口音 ID)
-ELEVEN_LABS_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"
+ELEVEN_LABS_VOICE_ID = "FbFkkfp4Iv6U5Q1WC4C2"
